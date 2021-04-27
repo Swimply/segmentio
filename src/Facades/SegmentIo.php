@@ -20,4 +20,14 @@ class SegmentIo extends Facade
     {
         \Segment::track($params);
     }
+
+    public static function init()
+    {
+        $write_key = config('segmentio.write_key');
+        $enabled = config('segmentio.enabled');
+
+        if ($write_key && $enabled) {
+            \Segment::init($write_key);
+        }
+    }
 }
