@@ -13,6 +13,10 @@ class SegmentIo extends Facade
      */
     protected static function getFacadeAccessor() : string
     {
-        return 'segmentio';
+        return 'segment';
+    }
+
+    public static function track(array $params)
+    {
     }
 }
