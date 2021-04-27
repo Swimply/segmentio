@@ -1,0 +1,31 @@
+{
+    "name": "laravel/analyticsphp",
+    "description": "segmentio/analytics-php laravel implementation",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Roman Shulzhenko",
+            "email": "rm.shulzhenko@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Laravel\\SegmentIo\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=5.3.3",
+        "segmentio/analytics-php": "1.7.0"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Laravel\\SegmentIo\\SegmentIo"
+            ],
+            "aliases" : {
+                "SegmentIo": "Laravel\\SegmentIo\\SegmentIo"
+            }
+        }
+    }
+}
