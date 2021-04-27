@@ -35,7 +35,7 @@ class SegmentIoServiceProvider extends ServiceProvider
 
         $this->publishes([$source => config_path('segmentio.php')]);
 
-        $this->mergeConfigFrom($source, 'segment');
+        $this->mergeConfigFrom($source, 'segmentio');
     }
 
     /**
