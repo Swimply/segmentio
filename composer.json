@@ -23,7 +23,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Laravel\\SegmentIo\\SegmentIo"
+                "Laravel\\SegmentIo\\SegmentIoServiceProvider"
             ],
             "aliases" : {
                 "SegmentIo": "Laravel\\SegmentIo\\SegmentIo"
