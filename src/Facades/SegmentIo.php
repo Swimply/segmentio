@@ -18,5 +18,6 @@ class SegmentIo extends Facade
 
     public static function track(array $params)
     {
+        \Segment::track($params);
     }
 }
