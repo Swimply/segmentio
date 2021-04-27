@@ -26,7 +26,7 @@
                 "Laravel\\SegmentIo\\SegmentIoServiceProvider"
             ],
             "aliases" : {
-                "SegmentIo": "Laravel\\SegmentIo\\SegmentIoServiceProvider"
+                "SegmentIoServiceProvider": "Laravel\\SegmentIo\\SegmentIoServiceProvider"
             }
         }
     }
