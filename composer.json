@@ -1,5 +1,5 @@
 {
-    "name": "laravel/analyticsphp",
+    "name": "laravel/segmentio",
     "description": "segmentio/analytics-php laravel implementation",
     "type": "project",
     "authors": [
