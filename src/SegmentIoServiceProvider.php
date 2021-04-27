@@ -1,6 +1,6 @@
 <?php
 
-namespace Laravel\SegmentIo;
+namespace SegmentIo\SegmentIo;
 
 use Illuminate\Support\ServiceProvider;
 use Segment;

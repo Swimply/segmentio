@@ -1,6 +1,6 @@
 <?php
 
-namespace Laravel\SegmentIo\Facades;
+namespace SegmentIo\SegmentIo\Facades;
 
 use Illuminate\Support\Facades\Facade;
 
