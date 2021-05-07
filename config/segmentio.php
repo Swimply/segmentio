@@ -26,6 +26,6 @@ return [
     |
     */
 
-    'write_key' => '',
+    'write_key' => env("SEGMENT_WRITE_KEY", ''),
 
 ];
