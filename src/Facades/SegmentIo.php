@@ -16,6 +16,11 @@ class SegmentIo extends Facade
         return 'segment';
     }
 
+    public static function flush()
+    {
+        \Segment::flush();
+    }
+
     public static function track(array $params)
     {
         \Segment::track($params);
