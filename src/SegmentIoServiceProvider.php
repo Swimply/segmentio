@@ -3,7 +3,7 @@
 namespace SegmentIo\SegmentIo;
 
 use Illuminate\Support\ServiceProvider;
-use Segment;
+use Segment\Segment;
 
 class SegmentIoServiceProvider extends ServiceProvider
 {
