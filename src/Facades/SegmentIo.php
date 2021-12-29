@@ -3,6 +3,7 @@
 namespace SegmentIo\SegmentIo\Facades;
 
 use Illuminate\Support\Facades\Facade;
+use Segment\Segment;
 
 class SegmentIo extends Facade
 {
@@ -18,12 +19,12 @@ class SegmentIo extends Facade
 
     public static function flush()
     {
-        \Segment::flush();
+        Segment::flush();
     }
 
     public static function track(array $params)
     {
-        \Segment::track($params);
+        Segment::track($params);
     }
 
     public static function init()
@@ -32,7 +33,7 @@ class SegmentIo extends Facade
         $enabled = config('segmentio.enabled');
 
         if ($write_key && $enabled) {
-            \Segment::init($write_key);
+            Segment::init($write_key);
         }
     }
 }
